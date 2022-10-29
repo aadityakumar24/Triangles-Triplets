@@ -45,8 +45,11 @@ long Tr(int n)
 
 int main()
 {
-    printf("%ld\n", T(7));
-    printf("%ld\n", dT(7));
-    printf("%ld\n", Tr(1000));
+    long p;
+    printf("Enter Number: ");
+    scanf("%d",&p);
+    printf("T(%ld): %ld\n", p, T(p));
+    printf("dT(%ld): %ld\n",p, dT(p));
+    printf("Tr(%ld): %ld\n",p, Tr(p));
     return 0;
 }
